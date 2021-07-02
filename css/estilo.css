@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
     margin: 0;
@@ -48,6 +49,7 @@ main{
 
 .container_banner{
     position: relative;
+    height: 780px;
 }
 
 .fundo_banner{
@@ -82,24 +84,79 @@ hr{
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     margin: 29px 0;
- }
+}
 
- .mouse{
+.mouse{
     width:38px;
     height: 80px;
- }
+}
 
- .container_sobre{
-     background-color: #080324;
-     color: #ffffff;
- }
+.container_sobre{
+    background-color: #080324;
+    color: #ffffff;
+    height: 800px;
+}
 
- .h2_sobre{
-     text-transform: uppercase;
-     color: #f9003d;
-     font-family: 'Bebas Neue', cursive;
- }
+.escapamento_sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
 
- .box_sobre{
+.h2_sobre{
+    text-transform: uppercase;
+    color: #f9003d;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    margin-left: 120px;
+}
+
+.box_sobre{
+    display: flex;
+    justify-content:space-between;
+}
+
+.imagem{
+    margin-left: 120px;
+}
+
+.box_textos{
+    
+}
+
+.box_textos span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.h3_sobre{
      color: #ffaf00;
-    }
+     font-size: 64px;
+     font-family: 'Bebas Neue', cursive;
+     width: 552px;
+     
+}
+
+.box_textos p{
+    font-family: 'Open Sans', sans-serif;
+    width: 592px;
+}
+
+.info{
+    background-image: url(../assets/imagem-fundo-info.png);
+}
+
+.info h2{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.box_span{
+    border: ;
+}
